@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>แนะนำตัว</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #72aef3;
+            color: #222222;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #010911;
+            text-align: center;
+        }
+
+        h2 {
+            color: #010911;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            color: #010911;
+            margin: 10px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 2px solid #69bbf1;
+        }
+
+        img {
+            width: 150px;
+            height: 175px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #999999;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #dddddd;
+        }
+
+        input, textarea {
+            width: 250px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ส่วนหัวของเว็บไซต์ -->
+    <header>
+        <h1>นายณัฐกรณ์ คิดเสาร์ชุ่ม</h1>
+    </header>
+
+    <nav>
+        <a href="#profile">ข้อมูลส่วนตัว</a>
+        <a href="#interest">สิ่งที่สนใจ</a>
+        <a href="#schedule">ตารางกิจกรรม</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+
+    <main>
+        <section id="profile" class="box">
+            <h2>ข้อมูลส่วนตัว</h2>
+            <img src="IM/ICE.jpg" alt="รูปโปรไฟล์">
+            <p>ชื่อ: นายณัฐกรณ์ คิดเสาร์ชุ่ม</p>
+            <p>ชื่อเล่น: ไอซ์</p>
+            <p>กำลังฝึกเขียนเว็บไซต์ด้วย HTML และ CSS</p>
+        </section>
+
+        <section id="interest" class="box">
+            <h2>สิ่งที่สนใจ</h2>
+            <p>สิ่งที่ผมสนใจและอยากฝึกเพิ่มเติม</p>
+            <ul>
+                <li>การเขียนเว็บไซต์</li>
+                <li>การเขียนโปรแกรม</li>
+                <li>การฟังเพลง</li>
+                <li>การดูหนัง</li>
+            </ul>
+        </section>
+
+        <section id="schedule" class="box">
+            <h2>ตารางกิจกรรม</h2>
+            <table>
+                <tr>
+                    <th>วัน</th>
+                    <th>กิจกรรม</th>
+                </tr>
+                <tr>
+                    <td>จันทร์ - ศุกร์</td>
+                    <td>เรียนหนังสือ</td>
+                </tr>
+                <tr>
+                    <td>เสาร์</td>
+                    <td>ฝึกเขียนโค้ด</td>
+                </tr>
+                <tr>
+                    <td>อาทิตย์</td>
+                    <td>พักผ่อน</td>
+                </tr>
+                <tr>
+                    <td colspan="2">เวลาว่างชอบฟังเพลงและดูหนัง</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ส่วนติดต่อและฟอร์ม -->
+        <section id="contact" class="box">
+            <h2>ติดต่อ</h2>
+            <p><a href="https://www.facebook.com/nutthakorn.kidsaochoom.7?locale=th_TH" target="_blank">Facebook</a></p>
+            <p><a href="https://www.instagram.com/ii_xce" target="_blank">Instagram</a></p>
+
+            <form>
+                <p>ชื่อ: <input type="text" name="name"></p>
+                <p>อีเมล: <input type="email" name="email"></p>
+                <p>ข้อความ:</p>
+                <textarea name="message" rows="4"></textarea><br>
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>จัดทำโดย นายณัฐกรณ์ คิดเสาร์ชุ่ม</p>
+    </footer>
+</body>
+</html>
